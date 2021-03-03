@@ -1,12 +1,19 @@
-import './ExploreContainer.css';
+import React from "react";
+import "./ExploreContainer.css";
+import { IonHeader, IonToolbar, IonTitle } from "@ionic/react";
 
-interface ContainerProps { }
+interface ContainerProps {}
 
 const ExploreContainer: React.FC<ContainerProps> = () => {
   return (
     <div className="container">
-      <strong>Ready to create an app?</strong>
-      <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+      <IonHeader className="ion-no-border">
+        <IonToolbar style={{ backgroundColor: "green" }}>
+          <IonTitle>
+            <b style={{ color: "white" }}>PlantY</b>
+          </IonTitle>
+        </IonToolbar>
+      </IonHeader>
     </div>
   );
 };

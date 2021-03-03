@@ -1,5 +1,5 @@
 {
-  "appId": "io.plantY",
+  "appId": "io.ionic.starter",
   "appName": "PlantY",
   "bundledWebRuntime": false,
   "npmClient": "npm",
