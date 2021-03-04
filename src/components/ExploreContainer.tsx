@@ -6,15 +6,17 @@ interface ContainerProps {}
 
 const ExploreContainer: React.FC<ContainerProps> = () => {
   return (
-    <div className="container">
-      <IonHeader className="ion-no-border">
-        <IonToolbar style={{ backgroundColor: "green" }}>
-          <IonTitle>
+    <>
+      <IonHeader>
+        <IonToolbar>
+          <IonTitle
+            style={{ backgroundColor: "rgb(60,179,113)", borderRadius: "12px" }}
+          >
             <b style={{ color: "white" }}>PlantY</b>
           </IonTitle>
         </IonToolbar>
       </IonHeader>
-    </div>
+    </>
   );
 };
 
