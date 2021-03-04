@@ -9,6 +9,7 @@ const Home: React.FC = () => {
     <IonPage>
       <ExploreContainer />
       <AddButton />
+      <p>hellohellohello</p>
     </IonPage>
   );
 };

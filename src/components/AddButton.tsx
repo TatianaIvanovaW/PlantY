@@ -5,9 +5,15 @@ interface ContainerProps {}
 
 const AddButton: React.FC<ContainerProps> = () => {
   return (
-    <div className="container">
-      <IonButton>Add</IonButton>
-    </div>
+    <>
+      <IonButton
+        onClick={() => {
+          console.log("click click");
+        }}
+      >
+        Add
+      </IonButton>
+    </>
   );
 };
 
