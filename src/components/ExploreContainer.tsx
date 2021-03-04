@@ -6,7 +6,7 @@ interface ContainerProps {}
 
 const ExploreContainer: React.FC<ContainerProps> = () => {
   return (
-    <div className="container">
+    <>
       <IonHeader>
         <IonToolbar>
           <IonTitle
@@ -16,7 +16,7 @@ const ExploreContainer: React.FC<ContainerProps> = () => {
           </IonTitle>
         </IonToolbar>
       </IonHeader>
-    </div>
+    </>
   );
 };
 

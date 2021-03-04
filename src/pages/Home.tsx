@@ -1,13 +1,14 @@
+import React from "react";
 import { IonPage } from "@ionic/react";
 import ExploreContainer from "../components/ExploreContainer";
+import AddButton from "../components/AddButton";
 import "./Home.css";
-import React from "react";
 
 const Home: React.FC = () => {
   return (
     <IonPage>
-      <p> hello hello</p>
       <ExploreContainer />
+      <AddButton />
     </IonPage>
   );
 };
